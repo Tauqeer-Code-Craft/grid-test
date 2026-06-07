@@ -117,9 +117,9 @@ function App() {
           {/* Card 6 - QR */}
           <div className="col-span-2 rounded-2xl bg-white/40 backdrop-blur-xl border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.06)] 
           p-6 flex flex-col items-center justify-center">
-            <h1 className="font-bold text-sm">QR CODE</h1>
+            <h1 className="font-bold text-sm mb-2">QR CODE</h1>
 
-            <div>
+            <div className="rounded-xl overflow-hidden">
               <img src={oppoCards.qr.image} alt="QR Code" />
             </div>
           </div>
